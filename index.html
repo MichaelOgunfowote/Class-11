@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .michael1{
+            background-color: aqua;
+            padding:0px;
+            margin:0px;  
+            border:0px;
+            
+        }
+        .michael2{
+            width:220px;
+            background-color:pink;
+            padding:50px;
+            border:2px dashed;
+            margin:20px 40px;
+        }
+        img#flower1{
+            float:right;
+        }
+        img#flower2{
+            float:left;
+        }
+    </style>
+</head>
+
+<body>
+   <!--Box Model--> 
+   <h1>Box model example</h1>
+   <hr>
+   <p class="michael1">My content</p>
+   <hr>
+   <p class="michael2">My coding class on Box Model</p>
+   <!--Float-->
+   <h1>Float</h1>
+   <hr>
+   <p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image</p>
+   <p>
+    <img src="Flower.jpg" id="flower1" style="width:100px; height:100px">
+    <img src="Flower.jpg" id="flower2" style="width:100px; height:100px">
+    This is a float property
+   </p>
+</body>
+</html>
